@@ -5,7 +5,7 @@ Since `ILSpy` failed to decompile the code, I will proceed with dynamic analysis
 <img src="decompile_failed.png">
 
 ## Entry Point
-Since ILSpy failed to fully decompile the application, a clear entry point could not be identified. Therefore, I will perform dynamic analysis using a Windows 10 virtual machine and dnSpy.
+Since `ILSpy` failed to fully decompile the application, a clear entry point could not be identified. Therefore, I will perform dynamic analysis using a **Windows 10 virtual machine and dnSpy**.
 
 However, I was able to <u>identify a working portion of the code</u> that includes a class of the **Form** type. This confirms that the application is a `WinForms` program developed using a specific IDE. Additionally, it has been confirmed that the code involves <u>string encryption and obfuscation techniques</u>.
 
